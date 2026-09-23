@@ -98,15 +98,15 @@ const char* GEMINI_API_KEY = "YOUR_GEMINI_API_KEY";
 
 Replace these values only on your local machine.
 
-## 8. Add the firmware
+## 8. Open the firmware
 
-Open:
+The working sketch is already included at:
 
 ```text
 firmware/ESP32_S3_Gemini_Live_STT.ino
 ```
 
-Paste your final tested sketch into that file.
+Open it in Arduino IDE and add your Wi-Fi credentials and Gemini API key locally before compiling.
 
 ## 9. Compile
 
