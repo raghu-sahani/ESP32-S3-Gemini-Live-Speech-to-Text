@@ -1,12 +1,12 @@
 # Firmware
 
-Paste the final tested Arduino sketch into:
+The tested Arduino firmware is included in:
 
 ```text
 ESP32_S3_Gemini_Live_STT.ino
 ```
 
-The file is intentionally provided as a placeholder so the working code can be uploaded separately.
+Open the sketch in Arduino IDE, add your local credentials, select the ESP32-S3 board, and upload it.
 
 Before committing your sketch, replace real credentials with placeholders:
 
