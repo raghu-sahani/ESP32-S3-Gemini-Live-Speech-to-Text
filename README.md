@@ -4,7 +4,7 @@ A push-to-talk speech-to-text device built with an ESP32-S3, an I2S microphone, 
 
 Hold the button, speak, release the button, and the recognized text appears on the OLED.
 
-> The firmware file in this repository is intentionally left as a placeholder. Paste your tested working sketch into `firmware/ESP32_S3_Gemini_Live_STT.ino`.
+> The working firmware is included in `firmware/ESP32_S3_Gemini_Live_STT.ino`. Add your own Wi-Fi credentials and Gemini API key locally before uploading to the ESP32-S3.
 
 ## What it does
 
@@ -119,12 +119,11 @@ const char* GEMINI_API_KEY = "YOUR_GEMINI_API_KEY";
 2. Install the ESP32 board package in Arduino IDE.
 3. Install U8g2 and ArduinoJson.
 4. Open `firmware/ESP32_S3_Gemini_Live_STT.ino`.
-5. Paste your tested working firmware into that file.
-6. Add your Wi-Fi credentials and Gemini API key locally.
-7. Select the correct ESP32-S3 board and COM port.
-8. Compile and upload.
-9. Open Serial Monitor at 115200 baud.
-10. Wait for the OLED to show `READY`.
+5. Add your Wi-Fi credentials and Gemini API key locally.
+6. Select the correct ESP32-S3 board and COM port.
+7. Compile and upload.
+8. Open Serial Monitor at 115200 baud.
+9. Wait for the OLED to show `READY`.
 
 ## Use
 
