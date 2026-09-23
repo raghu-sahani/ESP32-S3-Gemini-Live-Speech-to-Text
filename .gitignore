@@ -1,0 +1,22 @@
+# Local credentials / secrets
+secrets.h
+config.h
+credentials.h
+.env
+.env.*
+
+# Arduino build output
+build/
+*.bin
+*.elf
+*.map
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
